@@ -1,9 +1,8 @@
 <div align="center">
-  <h1>🔍 Simple TCP Port Scanner</h1>
+  <h1>Scanner de Portas TCP</h1>
   
   <p>
-    <strong>Scanner de portas TCP leve e didático feito em Python</strong><br>
-    Perfeito para quem está começando em redes, pentest e cibersegurança.
+    <strong>Scanner de portas TCP feito em Python</strong><br>
   </p>
 
   <p>
@@ -29,7 +28,7 @@ Este é um **scanner de portas TCP simples** que verifica se portas específicas
 
 <br>
 
-## 🚀 Como usar (rápido)
+## Como usar:
 
 ```bash
 # 1. Clone o repositório
@@ -56,4 +55,5 @@ python main.py 127.0.0.1 -p 1-1000 --threads 150
 python main.py 192.168.1.254 -p 1-65535 -t 300 --timeout 0.8
 
 # Ver todos os argumentos
+
 python main.py --help
