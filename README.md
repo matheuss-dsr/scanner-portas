@@ -15,7 +15,7 @@
 
 <br>
 
-## 📌 Sobre o projeto
+## Sobre o projeto
 
 Este é um **scanner de portas TCP simples** que verifica se portas específicas ou um intervalo de portas estão abertas em um host alvo, utilizando conexão TCP completa (connect scan).
 
@@ -57,3 +57,4 @@ python main.py 192.168.1.254 -p 1-65535 -t 300 --timeout 0.8
 # Ver todos os argumentos
 
 python main.py --help
+
