@@ -1,0 +1,2 @@
+# Não são necessárias dependências externas
+# Tudo roda com Python padrão (>= 3.8)
